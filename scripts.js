@@ -17,7 +17,7 @@ function comecarEtapa() {
     let numeroHtml = '';
     
     for(let i=0; i<etapa.numeros; i++){
-        numeroHtml += "<div class='numero'>&nbsp;</div>";
+        numeroHtml += `${i}`;
     }
 
     seuVotoPara.style.display = 'none';
@@ -25,7 +25,7 @@ function comecarEtapa() {
     cargo.innerHtml = etapa.titulo;
     rodape.style.display ='none';
     lateral.style.display = 'none';
-    box.innerHtml = '<div class="numero"></div>';
+    box.innerHtml = numeroHtml;
     //box.style.display = 'block';
 }
 
