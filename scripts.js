@@ -30,19 +30,19 @@ function comecarEtapa() {
 }
 
 function clicou(x) {
-    alert('Clicou em ' + x);
+    //alert('Clicou em ' + x);
 }
 
 function votoBranco() {
-    alert('Clicou em Branco');
+    //alert('Clicou em Branco');
 }
 
 function votoCorrige() {
-    alert('Clicou em Corrige');
+    //alert('Clicou em Corrige');
 }
 
 function votoConfirma() {
-    alert('Clicou em Confirma');
+    //alert('Clicou em Confirma');
 }
 
 comecarEtapa()
